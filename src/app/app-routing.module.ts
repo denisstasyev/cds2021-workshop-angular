@@ -7,7 +7,12 @@ const routes: Routes = [
     path: '',
     component: HomeComponent,
   },
-  { path: 'details', loadChildren: () => import('./details/details.module').then(m => m.DetailsModule) },
+  {
+    path: 'details/:id',
+    loadChildren: () =>
+      // Lazy-load
+      import('./details/details.module').then((m) => m.DetailsModule),
+  },
 ];
 
 @NgModule({
