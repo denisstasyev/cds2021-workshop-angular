@@ -3,10 +3,21 @@
     <p>Transitional housing can be hard, we're here to help</p>
     <div>
       <label for="city">Search by city:</label>
-      <!-- Double binding below: [()] -->
       <input type="text" id="city" [(ngModel)]="city">
-      <!-- "console.log" example: {{ city }} -->
       <button (click)="searchHousing()">Search</button>
     </div>
   </div>
+</section>
+
+<section class="search-results">
+  <ul>
+    <li *ngFor="let location of searchResults">
+      <p>
+        <a [routerLink]="['/details', location.id]">
+          {{ location.name }}, {{location.city}}
+        </a>
+      </p>
+      <p class="description">{{ location.description}}</p>
+    </li>
+  </ul>
 </section>
