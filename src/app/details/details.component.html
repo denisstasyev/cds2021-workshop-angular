@@ -1,1 +1,7 @@
-<p>details works!</p>
+<section *ngIf="location">
+  <p>{{location.name}}, {{location.city}}</p>
+  <h2>About this location:</h2>
+  <p>
+      {{location.description}}
+  </p>
+</section>
