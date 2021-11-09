@@ -1,4 +1,6 @@
-# Cds2021WorkshopAngular
+# [Building a web application in Angular](https://developer.chrome.com/devsummit/events/week-1/workshops/building-a-web-application-in-angular/) workshop by Sr. Developer Relations Engineer [Mark Thompson](https://github.com/MarkTechson)
+
+Let's have some fun and build an application inspired by vacation rental apps in Angular. In this beginner friendly workshop we'll build an application that uses some of the core features of Angular like components and routing to build a beautiful, functional web application.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.1.
 
