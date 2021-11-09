@@ -2,6 +2,11 @@
 
 Let's have some fun and build an application inspired by vacation rental apps in Angular. In this beginner friendly workshop we'll build an application that uses some of the core features of Angular like components and routing to build a beautiful, functional web application.
 
+Deployed to Github Pages with [Method 1 with angular-cli-ghpages](https://medium.com/tech-insights/how-to-deploy-angular-apps-to-github-pages-gh-pages-896c4e10f9b4):
+
+1. `ng build --prod --base-href "https://denisstasyev.github.io/cds2021-workshop-angular/"`
+2. `npx angular-cli-ghpages --dir=dist/cds2021-workshop-angular/`
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.1.
 
 ## Development server
